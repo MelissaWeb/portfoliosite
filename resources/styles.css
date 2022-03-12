@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    margin: auto;
+    padding: 5em;
+    font-family: 'Baskerville', 'Arial', 'Helvetica', sans-serif;
+}
+
+.navbar {
+    color: antiquewhite;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    
+}
+
+.navitemabout {
+    font-size: large;
+}
