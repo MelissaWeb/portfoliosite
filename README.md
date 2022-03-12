@@ -1,2 +1,2 @@
 # portfoliosite
-My portfolio site
+My portfolio site showing my progress so far.
