@@ -5,30 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet"> 
-    <title>Melissa Webster</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Bitter:ital,wght@0,400;0,700;1,300;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Dancing+Script:wght@700&family=Great+Vibes&family=Raleway:wght@300;400;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1836a6dd9a.js" crossorigin="anonymous"></script>    
+<title>My Portfolio</title>
     <link rel="stylesheet" href="resources/styles.css">
+    <link rel="stylesheet" href="resources/toggle-switch.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navitemabout">
-            <span>About</span>
+    <!--Desktop Navbar-->
+    <section id="nav">
+        <div class="nav-bar">
+            <div class="links">
+                <ul>
+                    <li><a href="#name" id="name">Melissa Webster</a></li>
+                    <li><a href="#projects" id="project">Projects</a></li>
+                    <li><a href="#aboutme" id="about">About</a></li>
+                    <li><a href="#contactme" id="contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="navitemprojects">
-            <span>Projects</span>
+    </section>
+    <!--End of Desktop Navbar-->
+    <!--Mobile Navbar-->
+    <section id="mobile-nav">
+        <div class="mobile-nav-bar">
+            <div class="links">
+               <ul>
+                <li>
+                    <a href="#name" id="name"><i class="fa solid fa-house-chimney"></i></a>
+                </li>
+                <li>
+                    <a href="#projects" id="project"><i class="fa brands fa-folder"></i></a>
+                </li>
+                <li>
+                    <a href="#aboutme" id="about"><i class="fa brands fa-user"></i></a>
+                </li>
+                <li>
+                    <a href="#contact" id="contact"><i class="fa regular fa-address-card"></i></a>
+                </li>
+               </ul> 
+            </div>
         </div>
-        <div class="navitemcontacts">
-            <span>Contact</span>
-        </div>
-    </nav>
-    <div>
-        <h1>Melissa Webster is a web developer, avid reader, and coffee addict living in the beautiful state of North Carolina.</h1>
+    </section>
+    <!--End of Mobile Navbar-->
 
-    </div>
-    </body>
+    <!--Hero Section(main pic with background color)-->
+    <section id="hero">
+        <div class="container">
+         <div class="overlay"></div>
+         <div class="image-container"></div>
+        </div>
+        <div class="hero-text">
+            <h1>
+                <span class="firstWord">Resolving</span><br />Problems & Finding 
+                <br />Solutions
+            </h1>
+            <a href="#" class="resume-cta"><span class="resume-text">Resume</span></a>
+        </div>
+    </section>
+    <!--End of hero section-->
 
+    <!--Project Section-->
+        <section id="projects">
+            <div class="project-container">
+                <div class="project-header">Projects</div>
+                <div class="projects">
+                    <div class="project-item">
+                        <div class="teacozy-project">
+                            <div class="text-container">
+                                <h2 class="name">Tea Company Website</h2>
+                                <div class="content">
+                                   <p>A fictitious tea shop with several locations serving artisanal teas is the subject of this project.
+                                   </p> 
+                                </div>
+                                <button class="button-tea">
+                                    <a href="./teacozy/index.html">
+                                        <h3>View Project</h3>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="fotomatic-project">
+                            <div class="text-container">
+                                <h2 class="name">Photography Website</h2>
+                                <div class="content">
+                                   <p>This project illustrates a camera store where photographers from various backgrounds can find unique items.</p> 
+                                </div>
+                                <button class="button-foto">
+                                    <a href="./fotomatic/index.html">
+                                        <h3>View Project</h3>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!--End of Project Section-->
+
+    <!--About Section-->
+    <section id="aboutme">
+        <div class="about-container">
+            <div class="about-section">
+               <div class="img-container">
+                <div class="about-image"></div>
+            </div> 
+            <div class="about-text">
+                <p>Learning to code is something that I've thought about for years, and in the Spring of 2021, I decided to start that journey in my spare time. 
+                I began with a video course that taught HTML/CSS and then I enrolled in Codecademy's Front End Engineer course. I successfully completed the course in September 2022.
+                In my free time, I enjoy reading, watching investigative shows and hiking.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--End of About Section-->
+
+    <!--Social Icons-->
+
+    <section id="contactme">
+        <div class="social-icons">
+            <div class="fb">
+                <!--font awesome for social icons-->
+                <a href="https://www.facebook.com/melissa.webster.12"><i class="fa brands fa-facebook"></i></a>
+            </div>
+            <div class="ig">
+                <a href="https://www.instagram.com/melissaweb/"><i class="fa brands fa-instagram"></i></a>
+            </div>
+            <div class="gh">
+                <a href="https://github.com/MelissaWeb"><i class="fa brands fa-github"></i></a>
+            </div>
+            <div class="lnkdn">
+                <a href="https://www.linkedin.com/in/melissa-webster-43677724/"><i class="fa brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
     <footer>
-        <!--put links here for social media and linkedin using icons for each-->
+        <section id="ending">
+            <div class="end">
+                <div class="end-text"><i class="fa-regular fa-copyright"></i> 2022 Melissa Webster </div> 
+            </div>
+        </section>
     </footer>
+</body>
+
 </html>
