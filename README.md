@@ -1,2 +1,3 @@
-# portfoliosite
-This is my portfolio website created to tell you a little bit about myself, as well as, to showcase a couple of my favorite projects that I completed while studying Front End Development with Codecademy.
+[click here for my portfolio site](www.melissawebdev.com)
+
+In addition to telling you a little bit about myself, this website showcases a few of my favorite projects that I completed in my Front End Development course at Codecademy
