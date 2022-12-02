@@ -343,6 +343,8 @@ li a {
         background-image: url(./images/aboutpic2.jpeg);
         background-size: cover;
         background-position: center;
+        border: 1px solid #002b8f;
+        border-radius: 10px;
     }
 
     .about-text {
