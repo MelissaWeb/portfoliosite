@@ -11,8 +11,7 @@ body {
     font-size: 22px;
     opacity: 0.9;
     color: seashell;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 a {
@@ -25,7 +24,6 @@ a {
 }
 
 /*Header*/
-
 header {
     display: flex;
     width: 100%;
@@ -50,6 +48,7 @@ header .logo img {
 header nav {
     margin-left: auto;
 }
+
 nav span {
     margin-right: 10px;
 }
@@ -59,7 +58,6 @@ nav span a {
 }
 
 /*Mission Section*/
-
 #mission {
     height: 700px;
     background-image: url("../../../teacozy/images/img-mission-background.webp");
@@ -87,7 +85,6 @@ nav span a {
 }
 
 /*Featured Teas Section*/
-
 .gallery-wrapper {
     max-width: 1000px;
 }
@@ -122,7 +119,6 @@ nav span a {
 
 
 /*Locations Section*/
-
 #locations {
     background-image: url("../../../teacozy/images/img-locations-background.webp");
     background-size: cover;
@@ -131,17 +127,16 @@ nav span a {
     width: auto;
     display: flex;
     flex-direction: column;
-    
 }
 
 /*Title of Locations section*/
 #locations .top {
     font-family: "Great Vibes", cursive;
+    color:  antiquewhite;
     font-size: 4rem;
     font-weight: 200;
     padding-bottom: 5%;
     padding-top: 3%;
-    
 }
 
 .flex-container {
@@ -149,8 +144,7 @@ nav span a {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 100%;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 .location {
@@ -158,7 +152,6 @@ nav span a {
     flex-direction: column;
     flex-wrap: nowrap;
     opacity: 1.0;
-    /*margin: 15px;*/
     margin: auto 40px;
     height: 250px;
     width: 300px;
@@ -243,6 +236,11 @@ footer {
         border: 1px solid black;
     }
 
+    /*enabled title of section to be more visible*/
+    #locations .top {
+        color: #323031;
+    }
+
     #locations .flex-container {
         display: flex;
         height: auto;
@@ -259,6 +257,23 @@ footer {
         flex-grow: 1;
         flex-basis: 0;
     }
+
+    /*added to make more responsive*/
+    .location {
+        margin: auto 0;
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+
+    .location h3 {
+        margin: 3px;
+        
+    }
+
+    .location h5 {
+        margin: 15px;
+    }
+
 }
 
 
