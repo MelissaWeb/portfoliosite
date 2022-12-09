@@ -1,10 +1,10 @@
-/*Started tips from Danny Thompson youtube video*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/*change colors to what I would like*/
+
 :root {
     --blue-text: #477eff;
     --dark-blue: #002b8f;
@@ -194,12 +194,15 @@ li a {
 
 .name {
     margin-top: 10px;
+    margin-left: 5px;
     color: var(--dark-blue);
     font-size: 2rem;
 }
 
 .content {
     padding: 25px 0;
+    margin-top: 5px;
+    margin-left: 5px;
     color: var(--med-blue);
 }
 
@@ -209,6 +212,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     padding: 15px;
     margin-bottom: 50px;
+    margin-left: 5px;
 
 }
 
@@ -218,6 +222,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     padding: 15px;
     margin-bottom: 50px;
+    margin-left: 5px;
 
 }
 
@@ -328,6 +333,47 @@ li a {
         background-position: center;
     }
 
+    .text-container {
+        position: absolute;
+        height: 75px;
+        width: 100%;
+        z-index: 2;
+        left: 0;
+        bottom: 0;
+        padding-left: 3%;
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+    .name {
+        margin: 5px 3px;
+        padding-bottom: 2px;
+        color: var(--dark-blue);
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 5px;
+        color: var(--med-blue);
+    }
+
+    .button-tea {
+        border: 3px solid var(--blue-text);
+        width: 160px;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        padding: 7px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .button-foto {
+        border: 3px solid var(--blue-text);
+        width: 160px;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        padding: 7px;
+        margin: 0 10px 0 3px;
+    }
+
     .about-container {
         display: flex;
         align-items: center;
@@ -359,7 +405,6 @@ li a {
         padding: 10px;
         margin-left: -10px;
     }
-
 
 }
 
