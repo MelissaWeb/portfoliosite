@@ -207,12 +207,15 @@ li a {
 
 .name {
     margin-top: 10px;
+    margin-left: 5px;
     color: var(--dark-blue);
     font-size: 2rem;
 }
 
 .content {
     padding: 25px 0;
+    margin-top: 5px;
+    margin-left: 5px;
     color: var(--med-blue);
 }
 
@@ -222,6 +225,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     padding: 15px;
     margin-bottom: 50px;
+    margin-left: 5px;
 }
 
 .button-foto {
@@ -230,6 +234,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     padding: 15px;
     margin-bottom: 50px;
+    margin-left: 5px;
 }
 
 .button-record {
@@ -262,6 +267,8 @@ li a {
     background-image: url(./images/aboutpic2.jpeg);
     background-size: cover;
     background-position: center;
+    border: 1px solid #002b8f;
+    border-radius: 10px;
 }
 
 .about-text {
@@ -344,6 +351,47 @@ li a {
         background-position: center;
     }
 
+    .text-container {
+        position: absolute;
+        height: 75px;
+        width: 100%;
+        z-index: 2;
+        left: 0;
+        bottom: 0;
+        padding-left: 3%;
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+    .name {
+        margin: 5px 3px;
+        padding-bottom: 2px;
+        color: var(--dark-blue);
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 5px;
+        color: var(--med-blue);
+    }
+
+    .button-tea {
+        border: 3px solid var(--blue-text);
+        width: 160px;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        padding: 7px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .button-foto {
+        border: 3px solid var(--blue-text);
+        width: 160px;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        padding: 7px;
+        margin: 0 10px 0 3px;
+    }
+
     .recordplayer-project {
         width: 250px;
         height: 400px;
@@ -372,6 +420,8 @@ li a {
         background-image: url(./images/aboutpic2.jpeg);
         background-size: cover;
         background-position: center;
+        border: 1px solid #002b8f;
+        border-radius: 10px;
     }
 
     .about-text {
@@ -386,7 +436,6 @@ li a {
         padding: 10px;
         margin-left: -10px;
     }
-
 
 }
 

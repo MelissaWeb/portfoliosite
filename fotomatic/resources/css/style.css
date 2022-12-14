@@ -14,11 +14,11 @@ html {
   text-align: center;
 }
 
-.button {
+/*.button {
   border-radius: 4px;
   background-color: #4a4a4a;
   color: white;
-}
+}*/
 
 .image-container {
   overflow: hidden;
@@ -53,6 +53,9 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-family: 'Damion', cursive;
+  font-size: 3rem;
+  font-weight: 100;
 }
 
 header nav ul {
@@ -70,12 +73,12 @@ nav a {
   color: #4a4a4a;
 }
 
-nav .button {
+/*nav .button {
   padding: .1875rem .5rem;
   background-color: #9dc20b;
   line-height: 1.6;
   color: white;
-}
+}*/
 
 nav li:last-child {
   display: none;
@@ -124,6 +127,12 @@ header .mobile {
   header .mobile li {
     padding: 0;
   }
+
+  header .mobile .icon {
+    width: 1rem;
+    height: 1rem;
+    padding-left: .25rem;
+  }
 }
 
 /* Sign Up Section */
@@ -166,7 +175,15 @@ header .mobile {
   font-size: 2.25rem;
 }
 
-#sign-up-cta span strong {
+.productinfo h4 {
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  color: #132a13;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+#sign-up-cta div strong {
   font-weight: bold;
 }
 
@@ -179,10 +196,11 @@ header .mobile {
   padding-bottom: .75rem;
 }
 
-#sign-up-cta .button {
+/*disable to implement later*/
+/*#sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
-}
+}*/
 
 @media only screen and (max-width: 895px) {
   #sign-up-section {
@@ -323,12 +341,13 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  line-height: 1.5;
 }
 
 #filters-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
-  font-weight: 300;
+  font-weight: 200;
   color: white;
 }
 
