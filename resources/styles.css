@@ -1,10 +1,10 @@
-/*Started tips from Danny Thompson youtube video*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/*change colors to what I would like*/
+
 :root {
     --blue-text: #477eff;
     --dark-blue: #002b8f;
@@ -177,6 +177,19 @@ li a {
     background-position: center;
 }
 
+.recordplayer-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(./images/recordplayer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .text-container {
     position: absolute;
     height: 75px;
@@ -209,7 +222,6 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     padding: 15px;
     margin-bottom: 50px;
-
 }
 
 .button-foto {
@@ -218,7 +230,14 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     padding: 15px;
     margin-bottom: 50px;
+}
 
+.button-record {
+    border: 3px solid var(--blue-text);
+    width: 160px;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 50px;
 }
 
 /*ABOUT SECTION*/
@@ -275,8 +294,7 @@ li a {
 
 .end {
     padding-bottom: 15px;
-    font-family: 'Baskerville', sans-serif;
-    
+    font-family: 'Baskerville', sans-serif; 
 }
 
 
@@ -322,6 +340,19 @@ li a {
         border-radius: 10px;
         margin: 50px;
         background-image: url(./images/cameragear.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .recordplayer-project {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        position: relative;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(./images/recordplayer.jpg);
         background-size: cover;
         background-position: center;
     }
