@@ -177,6 +177,19 @@ li a {
     background-position: center;
 }
 
+.recordplayer-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(./images/recordplayer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .text-container {
     position: absolute;
     height: 75px;
@@ -213,7 +226,6 @@ li a {
     padding: 15px;
     margin-bottom: 50px;
     margin-left: 5px;
-
 }
 
 .button-foto {
@@ -223,8 +235,16 @@ li a {
     padding: 15px;
     margin-bottom: 50px;
     margin-left: 5px;
-
 }
+
+.button-record {
+    border: 3px solid var(--blue-text);
+    width: 160px;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
 
 /*ABOUT SECTION*/
 .about-container {
@@ -232,7 +252,7 @@ li a {
     width: 80%;
     height: auto;
     background-color: #f8f8f8;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 25px 7px 20px -10px rgba(0, 0, 0, 0.2);
 }
 
 .about-section {
@@ -263,7 +283,7 @@ li a {
 .social-icons {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 2rem;
     width: 30%;
     margin: 25% 35%;
@@ -283,7 +303,6 @@ li a {
 .end {
     padding-bottom: 15px;
     font-family: 'Baskerville', sans-serif;
-    
 }
 
 
@@ -296,6 +315,7 @@ li a {
     #mobile-nav {
         display: block;
     }
+
     .mobile-nav-bar {
         width: 100%;
         position: fixed;
@@ -374,12 +394,33 @@ li a {
         margin: 0 10px 0 3px;
     }
 
+    .button-record {
+        border: 3px solid var(--blue-text);
+        width: 160px;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        padding: 7px;
+        margin: 0 10px 0 3px;
+    }
+
+    .recordplayer-project {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        position: relative;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(./images/recordplayer.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
     .about-container {
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #f8f8f8;
-        box-shadow: 15px 7px 30px 7px rgba(0, 0, 0, 0.2); 
+        box-shadow: 25px 7px 20px -10px rgba(0, 0, 0, 0.2); 
     }
 
     .about-image {
