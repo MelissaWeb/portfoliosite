@@ -56,6 +56,9 @@ header .logo {
   font-family: 'Damion', cursive;
   font-size: 3rem;
   font-weight: 100;
+  font-family: 'Damion', cursive;
+  font-size: 3rem;
+  font-weight: 100;
 }
 
 header nav ul {
@@ -133,6 +136,12 @@ header .mobile {
     height: 1rem;
     padding-left: .25rem;
   }
+
+  header .mobile .icon {
+    width: 1rem;
+    height: 1rem;
+    padding-left: .25rem;
+  }
 }
 
 /* Sign Up Section */
@@ -175,6 +184,15 @@ header .mobile {
   font-size: 2.25rem;
 }
 
+.productinfo h4 {
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  color: #132a13;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+#sign-up-cta div strong {
 .productinfo h4 {
   font-family: "Roboto", sans-serif;
   align-items: center;
@@ -342,10 +360,13 @@ header .mobile {
   font-weight: bold;
   color: white;
   line-height: 1.5;
+  line-height: 1.5;
 }
 
 #filters-section .content h3 {
   font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 200;
   line-height: 1.4;
   font-weight: 200;
   color: white;

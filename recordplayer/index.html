@@ -53,3 +53,59 @@
    
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Player</title>
+    <link rel="stylesheet" href="../recordplayer/resources/styles.css">
+    
+</head>
+<body>
+   <div class="player">
+    <div class="record">
+        <div class="label"></div>
+    </div>
+    <div class="tone-arm">
+        <div class="control"></div>
+    </div>
+    <button class="btn">Go</button>
+    <div class="slider-container">
+        <input 
+            type="range"
+            class="slider"
+            min="0"
+            max="1"
+            step="0.1"
+            value="0.7"
+        />
+    </div>
+   </div>
+   <audio loop class="my-song" src="../recordplayer/resources/nikita-lukyanov-chill-downtempo.mp3" preload="auto"></audio>
+
+   <script src="../recordplayer/scripts/script.js"></script>
+
+   <footer>
+    <section id="credit">
+        <div class="description">
+            <div>
+                <p>Music credit provided by:</p>
+            </div>
+            <div>
+                <a href="https://soundcloud.com/lukyanovnikita" target="_blank">Chill Downtempo by NIKI</a>
+            </div>
+            <div>
+                <a href="https://www.free-stock-music.com" target="_blank">Music promoted by free-stock-music</a>
+            </div>
+            <div>
+                <a href="https://creativecommons.org/licenses/by/3.0/deed.en_US" target="_blank">Creative Commons Attribution 3.0 Unported License</a>
+            </div> 
+        </div>
+    </section>
+   </footer>
+   
+
+</body>
+</html>
