@@ -25,7 +25,7 @@ html {
 }
 
 .image-container img {
-  display: inline-flex;
+  display: block;
   max-width: 100%;
 }
 
@@ -341,13 +341,12 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
-  line-height: 1.5;
 }
 
 #filters-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
 }
 
