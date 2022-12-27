@@ -177,7 +177,7 @@ li a {
     background-position: center;
 }
 
-.recordplayer-project {
+.guessnumber-project {
     width: 400px;
     height: 400px;
     background: #fff;
@@ -185,7 +185,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(./images/recordplayer.jpg);
+    background-image: url(./images/copyguessnumber.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -237,7 +237,7 @@ li a {
     margin-left: 5px;
 }
 
-.button-record {
+.button-guessnumber {
     border: 3px solid var(--blue-text);
     width: 160px;
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
@@ -393,7 +393,7 @@ li a {
         margin: 0 10px 0 3px;
     }
 
-    .button-record {
+    .button-guessnumber {
         border: 3px solid var(--blue-text);
         width: 160px;
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
@@ -401,7 +401,7 @@ li a {
         margin: 0 10px 0 3px;
     }
 
-    .recordplayer-project {
+    .guessnumber-project {
         width: 250px;
         height: 400px;
         background: #fff;
@@ -409,7 +409,7 @@ li a {
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(./images/recordplayer.jpg);
+        background-image: url(./images/copyguessnumber.jpg);
         background-size: cover;
         background-position: center;
     }
