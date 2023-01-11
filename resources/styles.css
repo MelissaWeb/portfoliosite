@@ -110,25 +110,6 @@ li a {
     color: #aeedde;
 }
 
-.resume-cta {
-    border: 2px solid #aeedde;
-    width: 175px;
-    padding: 30px;
-    margin-top: 20px;
-}
-
-.resume-text {
-    color: #fff;
-}
-
-.resume-text:hover {
-    color: #fff;
-    font-weight: bold;
-}
-.resume-cta:hover {
-    background-color: rgba(165, 7, 7, 0.4);
-}
-
 /*PROJECTS SECTION*/
 .project-container {
     width: 100%;
